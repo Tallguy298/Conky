@@ -1,8 +1,6 @@
 [Desktop Entry]
-Name=Install Conky System Information Tool
-Comment=Installs Conky System Information Tool
-Exec=gnome-terminal -e "bash -c 'cd \"$(dirname "\"%k\"")\"; sudo bash "./install.sh"'"
+Name=Install Conky
+Comment=Install Conky
+Exec=gnome-terminal -- sh -c 'cd "'"$(dirname %k)"'"; sudo bash ./install.sh'
 Icon=org.gnome.DiskUtility
-Terminal=false
 Type=Application
-Categories=Application;
